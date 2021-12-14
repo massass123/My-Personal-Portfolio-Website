@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"></head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="achivement.html">ACHIEVEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>My Personal portfolio</h1>
+            <p>Welcome to my personal portfolio website.Here you will get to<br>know more about me and my specialty.</p>
+            <a href="https://www.linkedin.com/in/daniel-chan-3a6ab1210/" class="hero-btn">My LinkIn Profile</a>
+        </div>
+
+    </section>
+<!-- Education and work history-->
+
+<section class="education">
+    <h1>Education Certificates</h1>
+    <p>Here are my education Certificates</p>
+
+    <div class="row">
+        <div class="education-col">
+            <h3>PSLE Certification</h3>
+            <p>Completed on December 2011
+            </p>
+        </div>
+        <div class="education-col">
+            <h3>O-Level Certification</h3>
+            <p>Completed on June 2020
+            </p>
+        </div>
+        <div class="education-col">
+            <h3>Deploma Certification</h3>
+            <p> I am currently studying in the deploma of Information Technology.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- About myself -->
+<section class="myinfo">
+    <h1>About myself</h1>
+    <p>My name is Daniel Chan,I am 23 this year.This website allows others to know more about me and to know my strengths and achievements.I am an 
+        outgoing guy and I love to help my peers when they need help.
+    </p>
+    <div class="row">
+        <div class="myself-col">
+            <img src="images/me.jpg" class="center">
+            <div class="layer">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Work experiences-->
+<section class="workexp">
+    <h1>My Work Expereinces</h1>
+    <p>Here are my past work experiences</p>
+
+    <div class="row">
+        <div class="workexp-col">
+            <img src="images/job1.jpg">
+            <h3>Tes-AMM(Singapore)</h3>
+            <p>I worked in Tes-AMM company for about 4 months as a part timer.It is a company which specialises
+                 in the recycling of Singapore's electonic waste.I the ways on how to disassemble apple products and how to fix them.</p>
+    </div>
+        <div class="workexp-col">
+            <img src="images/job22.jpg">
+            <h3>Tower Club(Singapore)</h3>
+            <p>I worked as a fine dining waiter in a building called tower club,it is located in the central side of Singapore.
+                There I picked up alot skills and understand how fine dining in western culture is like.
+                 Such as how to serve and pour wine the right way which sharpened my fine dining skills and etiquete.
+            </p>
+            </div>
+            <div class="workexp-col">
+                <img src="images/job3.jpg">
+                <h3>Peach Garden(Singapore)</h3>
+                <p>I worked at Peach Garden Singapore for 3 months,
+                    it is a famouse chinese restaurant in Singapore.There I picked up many skills as it was during Chinese New Year.I learnt how to portion
+                food well,de-boning a fish and also how to set up the ingredients for lou hei as it is the most popular chinese custom</p>
+            </div>
+    </div>
+
+</section>
+
+<!-- Call to Action-->
+
+<section class="cta">
+    <h1>Contact me here for enquiries</h1>
+    <a href="" class="hero-btn">Contact me</a>
+</section>
+
+<!-- Footer-->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Here are links to my social media</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+<!-- JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+    
+</body>
+</html>

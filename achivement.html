@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"></head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="achivement.html">ACHIEVEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Achievements</h1>
+
+    </section>
+<!-- Achievements-->
+<section class="education">
+    <h1>Achievements</h1>
+    <p>Here are my Achievements I've achieved</p>
+
+    <div class="row">
+        <div class="education-col">
+            <h3>AAU Jump Rope USA</h3>
+            <p>We broke the record for team Singapore and placed 1st in double dutch speed
+            </p>
+        </div>
+        <div class="education-col">
+            <h3>Hackathon</h3>
+            <p>Clinch first place in 2018 hackerthon Singapore competition</p>
+            </p>
+        </div>
+        <div class="education-col">
+            <h3>Best company in A-TEC</h3>
+            <p>While serving my time in National Service my company got 1st during the Atec evaluation
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Here are links to my social media</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+<!-- JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+    
+</body>
+</html>
